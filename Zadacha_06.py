@@ -7,11 +7,10 @@
 # 385916 -> yes
 # 123456 -> no
 
-# a = print ("Enter your 6-digit number: ")
-# a = print(int(input()))
-# s1 = int(a[0]) + int(a[1]) + int(a[2])
-# s2 = int(a[3]) + int(a[4]) + int(a[5])
-# if s1 == s2:
-#     print ('You are lucky!!!')
-# else:
-#     print ('Ups...') 
+a = input ("Enter your 6-digit number: ")
+s1 = int(a[0]) + int(a[1]) + int(a[2])
+s2 = int(a[3]) + int(a[4]) + int(a[5])
+if s1 == s2:
+    print ('You are lucky!!!')
+else:
+    print ('Ups...') 
