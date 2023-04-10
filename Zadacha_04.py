@@ -15,8 +15,10 @@
 # total = peter + sergey + kate
 # print (f"Guys have made together {total} birds")
 
+# Var 2
+
 summ = int(input ("How many birds have made children? "))
 part = summ//6
 print(f"Peter made {part} birds")
 print(f"Sergey made {part} birds")
-print(f"Kate made {part*4} bifds")
+print(f"Kate made {part*4} birds")
