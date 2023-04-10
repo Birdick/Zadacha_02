@@ -7,14 +7,16 @@
 # 24 -> 4 16 4
 # 60 -> 10 40 10
 
-peter = int(input("How many birds has made Peter: "))
-sergey = peter
-print (f"Sergey has made {sergey}")
-kate = (peter + sergey)*2
-print (f"Kate has made {kate}")
-total = peter + sergey + kate
-print (f"Guys have made together {total} birds")
+# Var 1
+# peter = int(input("How many birds has made Peter: "))
+# sergey = peter
+# print (f"Sergey has made {sergey}")
+# kate = (peter + sergey)*2
+# print (f"Kate has made {kate}")
+# total = peter + sergey + kate
+# print (f"Guys have made together {total} birds")
 
+# Var 2
 summ = int(input ("How many birds have made children? "))
 part = summ//6
 print(f"Peter made {part} birds")
